@@ -1,0 +1,23 @@
+/* Step 1: Tell body to use Flexbox and stack vertically */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Step 2: Tell main to use Flexbox horizontally */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Step 3: Set widths of article and aside */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
